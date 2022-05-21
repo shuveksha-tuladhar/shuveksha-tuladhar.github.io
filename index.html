@@ -45,22 +45,37 @@
             </a>
           </div>
           <div class="divider-white my-5"></div>
-          <div class="vertical-menu">
-            <a href="#" class="active"><i class="fa fa-home"></i>Home</a><br>
-            <a href="#"><i class="fa fa-user"></i>About Me</a><br>
-            <a href="#"></i><i class="fa fa-list"></i>Skills</a><br>
-            <a href="#"><i class="fa fa-desktop"></i>Projects</a><br>
-            <a href="#"><i class="fa fa-graduation-cap"></i>Education</a><br>
+          <ul class="vertical-menu">
+            <li>
+
+              <a href="#" class="active" ><i class="fa fa-home"></i>Home</a><br>
+            </li>
+            <li>
+
+              <a href="#about"><i class="fa fa-user"></i>About Me</a><br>
+            </li>
+            <li>
+
+              <a href="#skills"></i><i class="fa fa-list"></i>Skills</a><br>
+            </li>
+            <li>
+
+              <a href="#projects"><i class="fa fa-desktop"></i>Projects</a><br>
+            </li>
+            <li>
+
+              <a href="#education"><i class="fa fa-graduation-cap"></i>Education</a><br>
+            </li>
           </div>
         </div>
-      </div>
+     
       <div class="col-9">
         <div class="wrapper">
-          <section class="about">
+          <section class="about" id="about">
             <h5 class="title">About Me</h5>
             <p>I am a full stack developer - MERN</p>
           </section>
-          <section class="">
+          <section class="" id="skills">
             <h5 class="title">Skills</h5>
             <div class="row">
               <div class="col-2 mb-4">
@@ -129,11 +144,11 @@
               </div>
             </div>
           </section>
-          <section>
+          <section id="projects">
             <h5 class="title">Projects</h5>
             <div class="row">
               <div class="col-lg-4">
-                <a href="pac-man.html" class="card h-100">
+                <a href="pac-man.html" class="card h-100 p-3">
                   <img
                     src="images/PacMan1.png"
                     class="card-img-top img-project w-50"
@@ -145,7 +160,7 @@
                 </a>
               </div>
               <div class="col-lg-4">
-                <a href="eyes.html" class="card h-100">
+                <a href="eyes.html" class="card h-100 p-3">
                   <img
                     src="images/eyes.jpg"
                     class="card-img-top img-project"
@@ -157,7 +172,7 @@
                 </a>
               </div>
               <div class="col-lg-4">
-                <a href="bus-tracker.html" class="card h-100">
+                <a href="bus-tracker.html" class="card h-100 p-3">
                   <img
                     src="images/bus-tracker.png"
                     class="card-img-top"
@@ -170,22 +185,34 @@
               </div>
             </div>
           </section>
-          <section>
+          <section id="education">
             <h5 class="title">Education</h5>
-            <div class="row wrapper">
-              <ul>
+             
+              <ul class="list-edu">
                 <li>
                   Professional Certificate in Coding: Full Stack Development
-                  with MERN Feb 2022 - Present
+                  with MERN <span>Feb 2022 - Present</span>
+                  <p class="mt-2">Massachusetts Institute of Technology (MIT)</p>
                 </li>
-                <p>Massachusetts Institute of Technology (MIT)</p>
-                <li>Master's of Science in Civil Engineering Dec 2017</li>
-                <p>The University of Texas at Arlington</p>
-                <li>Bachelor's of Science in Civil Engineering Dec 2012</li>
-                <p>Tribhuvan University</p>
-              </ul>w
-            </div>
+                
+                <li>Master's of Science in Civil Engineering <span>
+                  Dec 2017
+                </span> 
+              
+                <p class="mt-2">The University of Texas at Arlington</p>
+              </li>
+              
+                <li>Bachelor's of Science in Civil Engineering <span>
+                  Dec 2012
+                </span>
+              
+                <p class="mt-2">Tribhuvan University</p>
+              </li>
+              
+              </ul>
+             
           </section>
+       
         </div>
       </div>
     </div>
