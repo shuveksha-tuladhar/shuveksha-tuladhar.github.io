@@ -1,3 +1,18 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+    color:#974d8d;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+}
 .nav-sidebar {
   background: url("./images/background.jpg") no-repeat;
   background-size: cover;
@@ -5,15 +20,15 @@
   /* width: 100%; */
   position: fixed;
   top: 0;
-  width: 23.5rem;
-  padding: 4rem 0;;
+  width: 20rem;
+  padding: 3rem 0;;
   /* display: flex;
   flex-direction: column; */
   /* align-items: center; */
   /* justify-content: center; */
 }
 .wrapper {
-  padding: 0 3rem;
+  padding: 2rem 3rem;
   /* display: grid; */
 }
 .container {
@@ -31,11 +46,11 @@
   width: 30%;
 }
 section {
-  padding: 1rem 0;
+  padding: 1.5rem 0;
 }
 .title {
   color: #5b0e2d;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   /* 400 is normal size */
   margin-bottom: 1rem;
@@ -55,13 +70,7 @@ section {
 .icon svg:hover {
   fill: blue;
 }
-a {
-  text-decoration: none;
-  color: inherit;
-}
-a:hover{
-    color:#974d8d;
-}
+
 .card-title {
   text-align: center;
 }
@@ -83,10 +92,7 @@ h3 {
   top: 80px;
   left: 120px;
 } */
-li {
-    font-weight: bold;
-    color: #5b0e2d;
-}
+
 .social-links a{
     margin-right: .75rem;
     color:#4e4e4e;
@@ -94,13 +100,55 @@ li {
 .social-links a:hover{
     color:#974d8d;
 }
-/* .vertical-menu{
-    position: fixed;
-    font-size: 1rem;
-} */
+.vertical-menu{
+ 
+  padding: 0 3rem;
+}
+.vertical-menu li{
+   padding: .5rem 0;
+}
+.vertical-menu li a{
+  color: #4e4e4e;
+  font-weight: 500;
+}
+.vertical-menu li a:hover{
+  color: #974d8d;
+}
+.vertical-menu li a i{
+  margin-right: 1rem;
+}
 .divider{
     border: 2px solid #cccccc
 }
 .divider-white{
     border: 1px solid #ffffff;;
+}
+.card{
+  position: static;
+}
+.card:hover{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px;
+}
+.list-edu li{
+  display: grid;
+  grid-template-columns: auto 15rem;
+    font-weight: bold;
+    color: #974d8d;
+    padding: 1.5rem 0;
+ 
+}
+.list-edu li:not(:last-child){
+ border-bottom:  1px solid #cccccc;
+ 
+}
+.list-edu li span{
+  font-weight: 500;
+  color: #974d8d;
+}
+.list-edu li p{
+  color: #4e4e4e;
+  font-weight: 400;
+}
+.list-game{
+  list-style: inside;
 }
