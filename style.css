@@ -1,0 +1,106 @@
+.nav-sidebar {
+  background: url("./images/background.jpg") no-repeat;
+  background-size: cover;
+  height: 100%;
+  /* width: 100%; */
+  position: fixed;
+  top: 0;
+  width: 23.5rem;
+  padding: 4rem 0;;
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.wrapper {
+  padding: 0 3rem;
+  /* display: grid; */
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: #5b0e2d;
+}
+/* .bio {
+  position: fixed;
+  top: 120px;
+  left: 60px;
+} */
+.img-pic {
+  border-radius: 50%;
+  width: 30%;
+}
+section {
+  padding: 1rem 0;
+}
+.title {
+  color: #5b0e2d;
+  font-size: 2rem;
+  font-weight: 600;
+  /* 400 is normal size */
+  margin-bottom: 1rem;
+}
+.logo h6 {
+  color: #666666;
+}
+.logo-skills {
+  height: 60px;
+}
+.logo-skills img {
+  height: 100%;
+  /* width: 100%; */
+  object-fit: contain;
+}
+
+.icon svg:hover {
+  fill: blue;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+    color:#974d8d;
+}
+.card-title {
+  text-align: center;
+}
+
+.img-project {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h3 {
+  /* margin: 80px; */
+  font-size: 1.5rem;
+  white-space: normal;
+}
+
+/* .pos-img {
+  position: fixed;
+  width: 25%;
+  top: 80px;
+  left: 120px;
+} */
+li {
+    font-weight: bold;
+    color: #5b0e2d;
+}
+.social-links a{
+    margin-right: .75rem;
+    color:#4e4e4e;
+}
+.social-links a:hover{
+    color:#974d8d;
+}
+/* .vertical-menu{
+    position: fixed;
+    font-size: 1rem;
+} */
+.divider{
+    border: 2px solid #cccccc
+}
+.divider-white{
+    border: 1px solid #ffffff;;
+}
