@@ -152,3 +152,10 @@ h3 {
 .list-game{
   list-style: inside;
 }
+
+.no-bg-color{
+  background: none;
+}
+.no-border-color{
+  border: none;
+}
