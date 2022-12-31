@@ -57,9 +57,10 @@ section {
 }
 .logo h6 {
   color: #666666;
+  font-size: 0.8rem;
 }
 .logo-skills {
-  height: 60px;
+  height: 40px;
 }
 .logo-skills img {
   height: 100%;
