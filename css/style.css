@@ -300,6 +300,20 @@ a.active {
     background: url(../img/home.JPG);
     background-size: cover;
     height: 100vh;
+    position: relative;
+    z-index: -2;
+}
+#home::before{
+    content: '';
+    position:absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100%;
+    display: block;
+    background-color: white;
+    opacity: .48;
+    z-index: -1;
 }
 
 .table-cell {
@@ -831,6 +845,20 @@ a.active {
         left: 2em;
     }
 }
+@media (max-width:650px){
+
+nav{
+    background-color: #fff;
+    z-index: 1;
+}
+nav ul li a{
+    font-size:12px;
+}
+
+nav ul li {
+    margin: 4px;
+}
+}
 
 @media (max-width: 500px) {
     h1 {
@@ -844,10 +872,14 @@ a.active {
     }
     .about-border {
         width: 265px;
+        height: 265px;;
     }
     .portfolio .categories-grid .categories ul li {
         list-style: none;
         margin: 10px 0;
+    }
+    nav ul li a{
+        font-size:12px;
     }
 }
 
