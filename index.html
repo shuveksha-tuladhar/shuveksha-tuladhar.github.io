@@ -78,7 +78,8 @@
     <!-- ./home -->
     
     <!-- about -->
-    <div class="section mt-5" id="about">
+    <div class="section py-5" id="about">
+      <div class="h-50"></div>
         <div class="container">
             <div class="col-lg-6 col-12" data-aos="fade-up">
                 <h4>01</h4>
@@ -109,8 +110,15 @@
             <div data-aos="fade-up">
                 <h4>02</h4>
                 <h1 class="size-50">My Technical Skills</h1>
-                  <div class="text-center mt-5">
-                    <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,react,redux,mongodb,bash,docker,express,firebase,git,github,graphql,heroku,jest,nodejs,postgres,postman,powershell,sass,sequelize,vscode,webpack,babel&perline=8" />
+
+                <!-- This is for larger devices -->
+                  <div class="text-center mt-5 d-none d-md-block">
+                    <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,react,redux,mongodb,bash,docker,express,firebase,git,github,graphql,heroku,jest,nodejs,postgres,postman,powershell,sass,sequelize,vscode,webpack,babel&perline=12" />
+                  </div>
+
+                  <!-- This is for mobile view -->
+                  <div class="text-center mt-5 d-block d-md-none">
+                    <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,react,redux,mongodb,bash,docker,express,firebase,git,github,graphql,heroku,jest,nodejs,postgres,postman,powershell,sass,sequelize,vscode,webpack,babel&perline=6" />
                   </div>
 
                 <!-- <div class="row mb-6">
@@ -555,25 +563,25 @@
         <div class="wave" id="wave4"></div>
       </div>
       <div id="contact">
-        <h3 style="font-size: 30px; font-family: 'Playfair Display', serif;"> CONTACT ME</h3>
+        <h3 style="font-size: 30px; font-family: 'Playfair Display', serif;" class="text-white fw-bold"> CONTACT ME</h3>
       </div>
         <div class="social-links mt-4 text-left">
-        <a href="https://www.linkedin.com/in/shuveksha-tuladhar/" target="_blank" class="linkedin">
-          <i class="fa fa-linkedin-square fa-2x"></i>
+        <a href="https://www.linkedin.com/in/shuveksha-tuladhar/" target="_blank" class="linkedin mr-3">
+          <i class="fa fa-linkedin-square fa-2x text-white"></i>
         </a>
-        <a href="https://github.com/shuveksha-tuladhar" class="github" target="_blank">
-          <i class="fa fa-github-square fa-2x"></i>
+        <a href="https://github.com/shuveksha-tuladhar" class="github mr-3" target="_blank">
+          <i class="fa fa-github-square fa-2x  text-white"></i>
         </a>
-        <a href="mailto:tuladhar.shuveksha@gmail.com" class="email" target="_blank" title="tuladhar.shuveksha@gmail.com">
-          <i class="fa fa-envelope-square fa-2x"></i>
+        <a href="mailto:tuladhar.shuveksha@gmail.com" class="email mr-3" target="_blank" title="tuladhar.shuveksha@gmail.com">
+          <i class="fa fa-envelope-square fa-2x text-white"></i>
         </a>
         <a href="https://drive.google.com/file/d/1n6gGoB6d4qg8ND0ZDz1IsuvStNwtCW_E/view?usp=share_link" class="resume"
           target="_blank">
-          <i class="fa fa-book fa-2x"></i>
+          <i class="fa fa-book fa-2x text-white"></i>
         </a>
       </div>
     </br>
-      <h3>&copy;2023 Shuveksha Tuladhar | All Rights Reserved</h3>
+      <h3 class=" text-white">&copy;2023 Shuveksha Tuladhar | All Rights Reserved</h3>
     </footer>
    <!-- ./footer -->
   
