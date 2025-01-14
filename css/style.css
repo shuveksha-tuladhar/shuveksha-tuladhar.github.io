@@ -382,8 +382,7 @@ a.active {
     font-weight: bold;
     flex-direction: column;
     align-items: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 8px;
 }
 
 #education{
@@ -456,7 +455,7 @@ a.active {
 }
 
 .timeline-event-copy {
-    padding: 2em;
+    padding: 1em;
     position: relative;
     top: -1.875em;
     left: 4em;
