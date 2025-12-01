@@ -16,13 +16,13 @@ $(document).ready(function () {
     // scroll menu
     var sections = $('.section'),
         nav = $('.navbar-fixed-top,footer'),
-        nav_height = nav.outerHeight();
+        nav_height = 70; // Fixed header height
 
     $(window).on('scroll', function () {
         var cur_pos = $(this).scrollTop();
 
         sections.each(function () {
-            var top = $(this).offset().top - nav_height,
+            var top = $(this).offset().top - nav_height - 50,
                 bottom = top + $(this).outerHeight();
 
             if (cur_pos >= top && cur_pos <= bottom) {
@@ -40,7 +40,7 @@ $(document).ready(function () {
             id = $el.attr('href');
 
         $('html, body').animate({
-            scrollTop: $(id).offset().top - nav_height + 2
+            scrollTop: $(id).offset().top - nav_height
         }, 600);
 
         return false;
