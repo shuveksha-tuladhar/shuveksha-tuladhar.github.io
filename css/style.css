@@ -1146,8 +1146,7 @@ a.active {
 @media (max-width:650px){
 
 nav{
-    background-color: #fff;
-    z-index: 1;
+    z-index: 100;
 }
 nav ul li a{
     font-size:12px;
@@ -1159,6 +1158,12 @@ nav ul li {
 }
 
 @media (max-width: 500px) {
+    body {
+        padding-top: 80px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
     h1 {
         font-family: 'Playfair Display', serif;
         font-size: 50px;
@@ -1169,9 +1174,16 @@ nav ul li {
         height: 600px;
     }
     .about-border {
-        width: 265px;
-        height: 265px;;
+        width: 200px;
+        height: 200px;
     }
+    
+    .about-border img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+    
     .portfolio .categories-grid .categories ul li {
         list-style: none;
         margin: 10px 0;
