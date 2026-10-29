@@ -21,4 +21,4 @@ Visit the live site: [https://shuveksha-tuladhar.github.io](https://shuveksha-tu
 
 ---
 
-*Last Updated: January 2026*
+*Last Updated: October 2026*
